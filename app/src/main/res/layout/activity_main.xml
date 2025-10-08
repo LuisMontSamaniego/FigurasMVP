@@ -37,46 +37,21 @@
             android:textAlignment="center" />
 
 
-        <LinearLayout
+        <Spinner
+            android:id="@+id/spnSelect"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:orientation="vertical">
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
 
-            <Button
-                android:id="@+id/btnTriangulo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="13dp"
-                android:text="Triangulo" />
-
-            <Button
-                android:id="@+id/btnRectangulo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="13dp"
-                android:text="Rectangulo" />
-
-            <Button
-                android:id="@+id/btnCirculo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="13dp"
-                android:text="Circulo" />
-
-            <Button
-                android:id="@+id/btnCuadrado"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="13dp"
-                android:text="Cuadrado" />
-        </LinearLayout>
-
-
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir"
+            android:id="@+id/btnIr"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/textView"
