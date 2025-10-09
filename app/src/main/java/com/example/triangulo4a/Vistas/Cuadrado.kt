@@ -1,5 +1,6 @@
 package com.example.triangulo4a.Vistas
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -31,6 +32,7 @@ class Cuadrado : AppCompatActivity(), ContratoCuadrado.Vista {
         val txtLado: EditText = findViewById<EditText>(R.id.edtLado)
         val btnArea: Button =findViewById<Button>(R.id.btnArea)
         val btnPerimetro: Button =findViewById<Button>(R.id.btnPerimetro)
+        val btnVolver: Button =findViewById<Button>(R.id.btnVolver)
         txvResultado=findViewById<TextView>(R.id.txvRes)
 
         //definimos el presentardor
@@ -52,6 +54,11 @@ class Cuadrado : AppCompatActivity(), ContratoCuadrado.Vista {
         btnPerimetro.setOnClickListener{
             val lado=txtLado.text.toString().toFloat()
             presentador.perimetro(lado)
+        }
+
+        btnVolver.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 

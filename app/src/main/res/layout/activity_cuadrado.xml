@@ -21,7 +21,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:text="Calculadora de Cuadrados"
             app:layout_constraintTop_toTopOf="parent"
             android:textSize="30dp"
@@ -76,6 +76,15 @@
             android:layout_marginTop="50dp"
             android:text="Gracias por su atencion"
             android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:layout_margin="30dp"
+           />
 
 
     </LinearLayout>

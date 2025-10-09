@@ -78,6 +78,14 @@
             android:text="Gracias por su atencion"
             android:textAlignment="center" />
 
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:layout_margin="30dp"/>
+
 
     </LinearLayout>
 
